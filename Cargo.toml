@@ -1,0 +1,48 @@
+[package]
+name = "mini-tensorflow"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+bincode = "1.3"
+csv = "1.2"
+rayon = "1.7"          # For parallel processing
+num-traits = "0.2"
+
+[target.'cfg(target_arch = "x86_64")'.dependencies]
+wide = "0.7"           # For SIMD operations
+
+[[example]]
+name = "basic_operations"
+path = "examples/basic_operations.rs"
+
+[[example]]
+name = "neural_network"
+path = "examples/neural_network.rs"
+
+[[example]]
+name = "training_loop"
+path = "examples/training_loop.rs"
+
+[[example]]
+name = "model_serialization"
+path = "examples/model_serialization.rs"
+
+[[example]]
+name = "cnn_example"
+path = "examples/cnn_example.rs"
+
+[[example]]
+name = "sequential_model"
+path = "examples/sequential_model.rs"
+
+[[example]]
+name = "data_loading"
+path = "examples/data_loading.rs"
+
+[[example]]
+name = "simd_benchmark"
+path = "examples/simd_benchmark.rs"

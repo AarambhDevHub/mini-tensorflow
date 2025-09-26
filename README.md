@@ -563,6 +563,13 @@ cargo bench
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
+## ☕ Support & Community
+
+If you find Ignitia helpful, consider supporting the project:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/aarambhdevhub)
+
+
 ## 🙏 Acknowledgments
 
 - **PyTorch**: API design inspiration
@@ -575,7 +582,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - **Issues**: GitHub Issues for bugs and feature requests
 - **Discussions**: GitHub Discussions for questions
-- **Documentation**: [docs.rs](https://docs.rs) (when published)
 
 ***
 
